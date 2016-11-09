@@ -1,0 +1,6 @@
+C:\Users\Eddy\Documents\Visual Studio 2013\Projects\WebSocket\Chat.System.Core\bin\Debug\Chat.System.Core.dll
+C:\Users\Eddy\Documents\Visual Studio 2013\Projects\WebSocket\Chat.System.Core\bin\Debug\Chat.System.Core.pdb
+C:\Users\Eddy\Documents\Visual Studio 2013\Projects\WebSocket\Chat.System.Core\obj\Debug\Chat.System.Core.csprojResolveAssemblyReference.cache
+C:\Users\Eddy\Documents\Visual Studio 2013\Projects\WebSocket\Chat.System.Core\obj\Debug\Chat.System.Core.dll
+C:\Users\Eddy\Documents\Visual Studio 2013\Projects\WebSocket\Chat.System.Core\obj\Debug\Chat.System.Core.pdb
+C:\Users\Eddy\Documents\Visual Studio 2013\Projects\WebSocket\Chat.System.Core\bin\Debug\MySql.Data.dll

@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/chat.css" rel="stylesheet" />
+    <link href="css/loading.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/chat.js"></script>
+</head>
+<body>
+    <div id="loading" style="display: none;">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+                <div class="object" id="object_five"></div>
+                <div class="object" id="object_six"></div>
+                <div class="object" id="object_seven"></div>
+                <div class="object" id="object_eight"></div>
+                <div class="object" id="object_nine"></div>
+            </div>
+        </div>
+    </div>
+    <div id="messageDiv">
+        <p>
+            <h2 class="h2 text-center">您的浏览器不支持在线即时聊天，请更换您的浏览器！</h2>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+            <h3 class="h3 text-center">
+                我们为您推荐以下浏览器：
+            </h3>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+            <ul>
+                <li>
+                    <a target="_blank" href="http://ie.sogou.com/">
+                        <img src="imgs/sogo.png" style="width: 200px;" />
+                        <span class="h4">搜狗浏览器</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://se.360.cn/">
+                        <img src="imgs/360.png" style="width: 200px;" />
+                        <span class="h4">360浏览器</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://rj.baidu.com/soft/detail/14744.html">
+                        <img src="imgs/google.png" style="width: 200px;" />
+                        <span class="h4">Google浏览器</span>
+                    </a>
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="chat_main">
+        <div class="chat_left">
+            <ul id="userList">
+                <li>
+                    <img src="head/cat.jpg" class="img-circle" /><span>爱上鱼的猫</span>
+                </li>
+            </ul>
+        </div>
+        <div class="chat_centent">
+            <ul id="messageList">
+                <li class="others">
+                    <img src="head/dog.jpg" class="img-circle smimg" />
+                    <span class="chat_others_content">你在干嘛？</span>
+                </li>
+                <li class="me info">
+                    <span class="chat_me_content">我在上班！</span>
+                    <img src="head/cat.jpg" class="img-circle smimg" />
+                </li>
+            </ul>
+        </div>
+        <div class="chat_input">
+            <div>
+                <a>表情</a>
+            </div>
+            <div class="form-group center-block text-center">
+                <textarea id="txtContent" class="form-control"></textarea>
+            </div>
+            <div class="text-right">
+                <input type="button" value="发送消息（Enter键发送）" class="btn btn-primary" id="btnSend" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
